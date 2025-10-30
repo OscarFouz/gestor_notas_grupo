@@ -1,3 +1,5 @@
+import estadisticas
+
 alumnos = {
     'Juan': 8.5,
     'María': 9.2,
@@ -94,7 +96,9 @@ def main():
                     val = 2
                     operativas(val)
                 case 4:
-                    pass
+                    estadisticas.media_notas(alumnos)
+                    estadisticas.max_notas(alumnos)
+                    estadisticas.min_notas(alumnos)
                 case 5:
                     continuar = False
                     break
