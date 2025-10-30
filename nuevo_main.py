@@ -56,7 +56,6 @@ def mostrar_nota_media(diccionario):
     return sum(diccionario.values()) / len(diccionario)
 
 print(f'Esta es la gran, super, hiper, mega aportación de Óscar al proyecto')
-print(f'Me veo en la obligación de volver a escribir código, esto se debe contenplar en HORAS EXTRAS')
 
 print(f'La nota media es {mostrar_nota_media(alumnos):.2f}')
 
